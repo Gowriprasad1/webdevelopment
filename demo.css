@@ -1,0 +1,85 @@
+body{
+			background: linear-gradient(135deg,#000428,#004e92);
+		}
+.text{
+			background-color: #fff;
+			width: 500px;
+			height: 500px;
+			top: 120px;
+			left: 35%;
+			position: absolute;
+			border-radius: 20px;
+		}
+		.box{
+			text-align: center;
+		}
+		.box input[type="text"],.box input[type="password"]{
+			border: 0;
+			background: none;
+			display: block;
+			margin: 20px auto;
+			border-top: 0;
+			border-right: 0;
+			border-left: 0;
+			border-bottom: 3px solid #1d2671;
+			padding: 15px;
+			width: 200px;
+			outline: none;
+			color: black;
+			transition: 0.25s;
+		}
+		.box h1{
+			color: #1d2671;
+		}
+		.box input[type="submit"]{
+			border: 0;
+			background: none;
+			display: block;
+			margin: 40px auto;
+			border: 3px solid #1d2671;
+			padding: 14px 40px;
+			border-radius:24px;
+			outline: none;
+			color: #1d2671;
+			transition: 0.25s;
+			cursor: pointer;
+			font-size: 17px;
+		}
+		::placeholder{
+			color: #1d2671;
+			text-align: left;
+			font-size: 17px;
+		}
+		.box input[type="text"]:focus,.box input[type="password"]:focus{
+			width: 250px;
+			border-color: #1d2671;
+		}
+		.box input[type="submit"]:hover{
+			background: #004e92;
+			color: #fff;
+		}
+		.social{
+		margin-left: 120px;
+		margin-top: 40px;
+		}
+		.social img{
+			border-radius: 50%;
+			margin: 0 12px;
+		}
+		.social img:hover{
+			transform: translateY(15px);
+			cursor: pointer;
+		}
+		.social img a{
+			text-decoration: none;
+		}
+		 #insta{
+			background-color: #C13584;
+			width: 60px;
+		}
+		#fb{
+			background-color: #3f729b;
+		}
+		#twitter{
+			background-color: #00acee;
+		}
